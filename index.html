@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Tailwind CSS</title>
+  <!-- Tailwind-CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
-  
+  <section class="md:bg-green-500 lg:bg-yellow-500">
+    <h2 class="text-3xl">Responsive Section</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat, harum iure dolorum omnis libero repudiandae voluptatum tempora necessitatibus deleniti pariatur amet quidem cumque facilis eligendi esse neque, dignissimos cupiditate perferendis perspiciatis ullam enim! Neque, ea quam! Aspernatur ducimus enim sapiente harum, quia quibusdam distinctio nam fugiat, officia, iure facilis?</p>
+
+  </section>
+  <section class="lg:flex ">
+    <div class="w-96 h-32 text-7xl bg-purple-400 border border-4 border-red-400">item 1</div>
+    <div class="w-96 h-32 text-7xl bg-purple-400 border border-4 border-red-400">item 2</div>
+    <div class="w-96 h-32 text-7xl bg-purple-400 border border-4 border-red-400">item 3</div>
+    <div class="w-96 h-32 text-7xl bg-purple-400 border border-4 border-red-400">item 4</div>
+  </section>
 </body>
 </html>
